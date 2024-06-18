@@ -7,7 +7,7 @@ The configuration come from database.
 ## Installation
 
 ```bash
-composer require funkymed/tenant-aware-bundle
+composer require oussema-albouchi/minotore-multitenancy-bundle
 ```
 
 create your a configuration `config/packages/tenant_aware.yaml`
