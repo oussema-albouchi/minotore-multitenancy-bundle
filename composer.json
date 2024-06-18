@@ -1,18 +1,18 @@
 {
-  "name": "funkymed/tenant-aware-bundle",
+  "name": "oussema-albouchi/minotore-multitenancy-bundle",
   "type": "symfony-bundle",
-  "description": "A Symfony bundle for multi-tenant applications",
+  "description": "A bundle for making studio multi-tenant",
   "keywords": [
     "symfony",
     "bundle",
     "multi-tenant"
   ],
-  "homepage": "https://github.com/funkymed/tenant-aware-bundle",
+  "homepage": "https://github.com/oussema-albouchi/minotore-multitenancy-bundle",
   "license": "MIT",
   "authors": [
     {
-      "name": "Cyril Pereira",
-      "email": "cyril.pereira@extreme-sensio.com"
+      "name": "Oussema",
+      "email": "oussema.albouchi@minotore.com"
     }
   ],
   "require": {
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Funkymed\\TenantAwareBundle\\": ""
+      "Minotore\\MultiTenancyBundle\\": ""
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Funkymed\\TenantAwareBundle\\Tests\\": "tests/"
+      "Minotore\\MultiTenancyBundle\\Tests\\": "tests/"
     }
   }
 }
