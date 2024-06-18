@@ -2,7 +2,7 @@
 <?php
 
 use App\Kernel;
-use Funkymed\TenantAwareBundle\Command\TenantAwareApplication;
+use Minotore\MultiTenancyBundle\Command\TenantAwareApplication;
 use Symfony\Component\Console\Input\ArgvInput;
 
 if (!is_dir(dirname(__DIR__).'/vendor')) {

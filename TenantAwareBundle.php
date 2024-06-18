@@ -1,12 +1,12 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle;
+namespace Minotore\MultiTenancyBundle;
 
-use Funkymed\TenantAwareBundle\DependencyInjection\TenantAwareExtension;
+use Minotore\MultiTenancyBundle\DependencyInjection\TenantAwareExtension;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Funkymed\TenantAwareBundle\DependencyInjection\Compiler\TenantConfigurationPass;
+use Minotore\MultiTenancyBundle\DependencyInjection\Compiler\TenantConfigurationPass;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
 class TenantAwareBundle extends Bundle

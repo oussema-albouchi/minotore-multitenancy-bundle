@@ -1,6 +1,6 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
 
 // use this as an exemple to create your own replacement configuration
 class DatabaseProcessor extends ProcessorAbstract

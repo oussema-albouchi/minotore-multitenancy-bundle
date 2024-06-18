@@ -1,6 +1,6 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
 
 interface ProcessorInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
 
 use Doctrine\ORM\EntityManager;
-use Funkymed\TenantAwareBundle\Entity\Tenant;
+use Minotore\MultiTenancyBundle\Entity\Tenant;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 abstract class ProcessorAbstract implements ProcessorInterface

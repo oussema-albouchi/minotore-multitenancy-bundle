@@ -1,12 +1,12 @@
 parameters:
-    tenant_class: Funkymed\TenantAwareBundle\Entity\Tenant
+    tenant_class: Minotore\MultiTenancyBundle\Entity\Tenant
 
 services:
     _defaults:
         autowire: true
         autoconfigure: true
 
-    Funkymed\TenantAwareBundle\:
+    Minotore\MultiTenancyBundle\:
         resource: '../../*'
         exclude: '../../{Entity,Migrations,Tests,Kernel.php}'
 

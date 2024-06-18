@@ -1,6 +1,6 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\Entity;
+namespace Minotore\MultiTenancyBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

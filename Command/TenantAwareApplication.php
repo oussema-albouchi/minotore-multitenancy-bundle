@@ -1,6 +1,6 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\Command;
+namespace Minotore\MultiTenancyBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\InputDefinition;

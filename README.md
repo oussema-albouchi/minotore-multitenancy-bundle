@@ -15,8 +15,8 @@ create your a configuration `config/packages/tenant_aware.yaml`
 ```yaml
 tenant_aware:
     processors:
-        - Funkymed\TenantAwareBundle\DependencyInjection\Compiler\Processor\DummyProcessor
-        - Funkymed\TenantAwareBundle\DependencyInjection\Compiler\Processor\DatabaseProcessor
+        - Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor\DummyProcessor
+        - Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor\DatabaseProcessor
 ```
 
 Modify you Kernel.php like this to use a cache by tenant
@@ -28,7 +28,7 @@ Modify you Kernel.php like this to use a cache by tenant
 
 namespace App;
 
-use Funkymed\TenantAwareBundle\TenantAwareKernel;
+use Minotore\MultiTenancyBundle\TenantAwareKernel;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
 
@@ -120,7 +120,7 @@ and then replace `bin/console` with this code to make it compatible
 // bin/console
 
 use App\Kernel;
-use Funkymed\TenantAwareBundle\Command\TenantAwareApplication;
+use Minotore\MultiTenancyBundle\Command\TenantAwareApplication;
 use Symfony\Component\Console\Input\ArgvInput;
 
 if (!is_dir(dirname(__DIR__).'/vendor')) {

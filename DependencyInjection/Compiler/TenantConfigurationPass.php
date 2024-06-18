@@ -1,10 +1,10 @@
 <?php
 
-namespace Funkymed\TenantAwareBundle\DependencyInjection\Compiler;
+namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler;
 
 use Doctrine\ORM\EntityManager;
-use Funkymed\TenantAwareBundle\DependencyInjection\TenantAwareExtension;
-use Funkymed\TenantAwareBundle\Entity\Tenant;
+use Minotore\MultiTenancyBundle\DependencyInjection\TenantAwareExtension;
+use Minotore\MultiTenancyBundle\Entity\Tenant;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait;
