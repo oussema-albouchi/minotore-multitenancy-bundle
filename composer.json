@@ -1,5 +1,5 @@
 {
-  "name": "oussema-albouchi/minotore-multitenancy-bundle",
+  "name": "minotore/multi-tenancy-bundle",
   "type": "symfony-bundle",
   "description": "A bundle for making studio multi-tenant",
   "keywords": [

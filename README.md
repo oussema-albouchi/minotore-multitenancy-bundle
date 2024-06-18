@@ -7,7 +7,7 @@ The configuration come from database.
 ## Installation
 
 ```bash
-composer require oussema-albouchi/minotore-multitenancy-bundle
+composer require minotore/multi-tenancy-bundle
 ```
 
 create your a configuration `config/packages/tenant_aware.yaml`
