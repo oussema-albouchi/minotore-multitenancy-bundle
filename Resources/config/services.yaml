@@ -1,12 +1,12 @@
 parameters:
-    tenant_class: Minotore\MultiTenancyBundle\Entity\Tenant
+    tenant_class: Minotore\MultiStudioBundle\Entity\Tenant
 
 services:
     _defaults:
         autowire: true
         autoconfigure: true
 
-    Minotore\MultiTenancyBundle\:
+    Minotore\MultiStudioBundle\:
         resource: '../../*'
         exclude: '../../{Entity,Migrations,Tests,Kernel.php}'
 

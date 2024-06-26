@@ -1,6 +1,6 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\DependencyInjection;
+namespace Minotore\MultiStudioBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

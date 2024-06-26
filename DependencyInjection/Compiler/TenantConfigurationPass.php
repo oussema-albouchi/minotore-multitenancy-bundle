@@ -1,10 +1,10 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler;
+namespace Minotore\MultiStudioBundle\DependencyInjection\Compiler;
 
 use Doctrine\ORM\EntityManager;
-use Minotore\MultiTenancyBundle\DependencyInjection\TenantAwareExtension;
-use Minotore\MultiTenancyBundle\Entity\Tenant;
+use Minotore\MultiStudioBundle\DependencyInjection\TenantAwareExtension;
+use Minotore\MultiStudioBundle\Entity\Tenant;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait;

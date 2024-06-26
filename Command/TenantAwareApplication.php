@@ -1,6 +1,6 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\Command;
+namespace Minotore\MultiStudioBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\InputDefinition;

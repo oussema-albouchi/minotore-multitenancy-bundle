@@ -1,12 +1,12 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle;
+namespace Minotore\MultiStudioBundle;
 
-use Minotore\MultiTenancyBundle\DependencyInjection\TenantAwareExtension;
+use Minotore\MultiStudioBundle\DependencyInjection\TenantAwareExtension;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Minotore\MultiTenancyBundle\DependencyInjection\Compiler\TenantConfigurationPass;
+use Minotore\MultiStudioBundle\DependencyInjection\Compiler\TenantConfigurationPass;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
 class TenantAwareBundle extends Bundle

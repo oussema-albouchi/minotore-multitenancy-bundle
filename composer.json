@@ -1,5 +1,5 @@
 {
-  "name": "minotore/multi-tenancy-bundle",
+  "name": "minotore/multi-studio-bundle",
   "type": "symfony-bundle",
   "description": "A bundle for making studio multi-tenant",
   "keywords": [
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Minotore\\MultiTenancyBundle\\": ""
+      "Minotore\\MultiStudioBundle\\": ""
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Minotore\\MultiTenancyBundle\\Tests\\": "tests/"
+      "Minotore\\MultiStudioBundle\\Tests\\": "tests/"
     }
   }
 }

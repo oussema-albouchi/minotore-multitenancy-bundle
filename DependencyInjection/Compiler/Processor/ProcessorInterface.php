@@ -1,6 +1,6 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiStudioBundle\DependencyInjection\Compiler\Processor;
 
 interface ProcessorInterface
 {

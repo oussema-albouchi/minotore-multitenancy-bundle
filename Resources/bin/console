@@ -2,7 +2,7 @@
 <?php
 
 use App\Kernel;
-use Minotore\MultiTenancyBundle\Command\TenantAwareApplication;
+use Minotore\MultiStudioBundle\Command\TenantAwareApplication;
 use Symfony\Component\Console\Input\ArgvInput;
 
 if (!is_dir(dirname(__DIR__).'/vendor')) {

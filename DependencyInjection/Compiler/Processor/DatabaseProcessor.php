@@ -1,6 +1,6 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiStudioBundle\DependencyInjection\Compiler\Processor;
 
 // use this as an exemple to create your own replacement configuration
 class DatabaseProcessor extends ProcessorAbstract

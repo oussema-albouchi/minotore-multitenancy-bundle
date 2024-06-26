@@ -1,6 +1,6 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\Entity;
+namespace Minotore\MultiStudioBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

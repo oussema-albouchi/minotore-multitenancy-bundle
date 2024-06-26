@@ -1,9 +1,9 @@
 <?php
 
-namespace Minotore\MultiTenancyBundle\DependencyInjection\Compiler\Processor;
+namespace Minotore\MultiStudioBundle\DependencyInjection\Compiler\Processor;
 
 use Doctrine\ORM\EntityManager;
-use Minotore\MultiTenancyBundle\Entity\Tenant;
+use Minotore\MultiStudioBundle\Entity\Tenant;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 abstract class ProcessorAbstract implements ProcessorInterface
